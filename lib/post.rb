@@ -13,8 +13,9 @@ def author
   @author
 end
 
-au
-
+def author_name
+self.artist.name
+end
 
 
 end
