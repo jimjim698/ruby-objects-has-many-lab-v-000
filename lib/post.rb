@@ -14,7 +14,10 @@ def author
 end
 
 def author_name
+  if autho
 self.author.name
+else
+  nil
 end
 
 
